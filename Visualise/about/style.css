@@ -1,0 +1,43 @@
+html, body {
+    overflow: hidden;
+    background: #66a266;
+  
+  }
+  #main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+    animation: fadeIn 4s ease-in;
+  }
+  .card {
+    height: 550px;
+    width: 900px;
+    background: #FFFFFF;
+    overflow: hidden;
+  }
+  h1 {
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    font-size: 70px;
+    font-family: 'Amatic SC', cursive;
+  }
+  p, .para1 {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+  }
+  p, .para2 {
+    content: "";
+    top: 300px;
+  }
+  h4 {
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    font-size: 20px;
+  }
+ 
+

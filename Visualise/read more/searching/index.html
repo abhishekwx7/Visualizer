@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn about Searching Algorithms</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Searchings</h1>
+    <div>
+        <div>
+            <h2>Linear Search</h2>
+            <h3>How does Linear Search Algorithm Work ?</h3>
+            <p>
+                In Linear Search Algorithm ,
+            <ul>
+                <li>
+                    Every element is considered as a potential match for the key and checked for the same.
+                </li>
+                <li>
+                    If any element is found equal to the key, the search is successful and the index of that element is
+                    returned.
+                </li>
+                <li>
+                    If no element is found equal to the key, the search yields “No match found”.
+                </li>
+            </ul>
+            </p>
+        </div>
+        <div>
+            <h2>Complexity Analysis of Linear Search:</h2>
+            <h3>Time Complexity:</h3>
+            <p>
+            <ul>
+                <li>
+                    Best Case: In the best case, the key might be present at the first index. So the best case
+                    complexity is O(1)
+                </li>
+                <li>
+                    Worst Case: In the worst case, the key might be present at the last index i.e., opposite to the end
+                    from which the search has started in the list. So the worst-case complexity is O(N) where N is the
+                    size of the list.
+                </li>
+                <li>
+                    Average Case: O(N)
+                </li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+        <div>
+            <h2>Binary Search</h2>
+            <h3>How does Binary Search Algorithm Work ?</h3>
+            <p>
+                In Binary Search Algorithm ,
+            <ul>
+                <li>
+                    Divide the search space into two halves by finding the middle index “mid”. .
+                </li>
+                <li>
+                    If the key is found at middle element, the process is terminated.
+                </li>
+                <li>
+                    If the key is not found at middle element, choose which half will be used as the next search space.
+                    <ul>
+                        <li>
+                            If the key is smaller than the middle element, then the left side is used for next search.
+                        </li>
+                        <li>
+                            If the key is larger than the middle element, then the right side is used for next search.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    This process is continued until the key is found or the total search space is exhausted.
+                </li>
+            </ul>
+            </p>
+        </div>
+        <div>
+            <h2>Complexity Analysis of Linear Search:</h2>
+            <h3>Time Complexity:</h3>
+            <p>
+            <ul>
+                <li>
+                    Best Case: O(1)
+                </li>
+                <li>
+                    Worst Case: O(log N)
+                </li>
+                <li>
+                    Average Case: O(log N)
+                </li>
+            </ul>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
